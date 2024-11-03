@@ -4,7 +4,6 @@ import "./styles.css";
 
 
 let weatherData = await getWeather("Tokyo");
-
 class Weather{
     constructor(resolvedAddress, description, temp, feelslike, humidity, 
         windgust, windspeed, pressure, uvindex, conditions, icon){
@@ -59,3 +58,4 @@ function searchLocation() {
 searchButton.addEventListener("click", searchLocation);
 
 showCurrentWeather()
+
